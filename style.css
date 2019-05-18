@@ -1,0 +1,114 @@
+body {
+    font-size: small;
+    background: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    display: block;
+    
+    
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+}
+
+li {
+    float: right;
+    padding: 14px 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #222;
+}
+
+.main {
+    margin: auto;
+    text-align: -webkit-center;
+    display: block;
+}
+
+. main img {
+    display: block;
+    height: 80%px;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 109px;
+}
+.main .searchbar {
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: text;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height:44px;
+    margin: 30px 0;
+    width: 482px; 
+    background-image: url("https://www.infodrones.it/wp-content/uploads/2018/10/Di-640x379.jpg");
+    background-size:10%;
+    background-position: right;
+    background-repeat: no-repeat;
+   }
+   .mic {
+       height: 20%;
+       width: 20%
+   }
+ .button {
+    display: inline-block;
+    background-color: #f2f2f2
+    border: 5px solid #f2f2f2
+    border-radius: 4px;
+    color: #5f6368;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0px 16px;
+ }
+ .lang a{
+text-decoration: none;
+color: #1a0dab;
+padding: 0 5px;
+margin-bottom: 500px;
+ }
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    margin-top: 500px;
+    margin-left: 0;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    
+    padding: 10px;
+   
+}
+
+p {
+   padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e4e4;
+        
+}
+ .left {float: left;}
+ .right {float: right;}
+
+/*
+.left, .right {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid #e4e4e4;
+    height: 24px;
+}
